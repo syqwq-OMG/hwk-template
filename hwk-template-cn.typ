@@ -1,7 +1,7 @@
 #let hwk(course: "", hwk_id: 0, author: "小明", stu_id: 12345678901, body) = {
   let default_font= ("New Computer Modern","Source Han Serif SC")
   
-  set text(font: default_font)
+  set text(font: default_font, weight: 100)
   let title = course + " -- HW " + str(hwk_id) + " 解答"
   set document(title: title)
 

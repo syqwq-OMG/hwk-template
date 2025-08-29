@@ -1,4 +1,4 @@
-#import "hwk-template-cn.typ":*
+#import "../../hwk-template-cn.typ":*
 #show:hwk.with(
   author: "小明",
   course: "线性代数",
