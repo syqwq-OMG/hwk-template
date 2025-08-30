@@ -1,7 +1,7 @@
 #let hwk(course: "", hwk_id: 0, author: "小明", stu_id: 12345678901, body) = {
   let default_font= ("New Computer Modern","Source Han Serif SC")
   
-  set text(font: default_font, weight: 100)
+  set text(font: default_font, weight: 100, size: 10pt)
   let title = course + " -- HW " + str(hwk_id) + " 解答"
   set document(title: title)
 
@@ -26,7 +26,7 @@
 
   align(center)[
     #set text(font: default_font)
-    #block(text(weight: 500, 20pt, title))
+    #block(text(weight: 500, 17pt, title))
     #v(1.5em, weak: true)
     #text(14pt)[#author, #stu_id]
     #v(1.5em, weak: true)
